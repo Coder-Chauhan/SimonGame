@@ -9,38 +9,49 @@
 </head>
 
 <body>
-  <h1 id="level-title">Press A Key to Start</h1>
-  <div class="container">
-    <div lass="row">
 
-      <div type="button" id="green" class="btn green">
+  <section class="heading">
+    <h1>SIMON GAME</h1>
+  </section>
 
-      </div>
-
-      <div type="button" id="red" class="btn red">
-
-      </div>
+  <section id="about">
+    <div class="Instructions">
+      <h6>How to play.</h6>
+      <p>Firstly, the game shows the first colour in the sequence (say blue). The user clicks on the blue button.
+        Next, the game shows the next colour (say red), the user has to remember the sequence is blue, red and so on and
+        so forth.If the user messes up the sequence, then the game ends.
+      </p>
     </div>
+  </section>
 
-    <div class="row">
+  <section class="Game">
+    <h1 id="level-title">Press A Key to Start</h1>
 
-      <div type="button" id="yellow" class="btn yellow">
+    <div class="container">
+      <div lass="row">
 
+        <div type="button" id="green" class="btn green">
+
+        </div>
+
+        <div type="button" id="red" class="btn red">
+
+        </div>
       </div>
-      <div type="button" id="blue" class="btn blue">
+
+      <div class="row">
+
+        <div type="button" id="yellow" class="btn yellow">
+
+        </div>
+        <div type="button" id="blue" class="btn blue">
+
+        </div>
 
       </div>
 
     </div>
-
-  </div>
-
-  <div class="Instructions">
-  <h6>About</h6>
-  <p>Firstly, the game shows the first colour in the sequence (say blue). The user clicks on the blue button.
-    Next, the game shows the next colour (say red), the user has to remember the sequence is blue, red and so on and so forth.If the user messes up the sequence, then the game ends.
-  </p>
-  </div>
+  </section>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="game.js" charset="utf-8"></script>

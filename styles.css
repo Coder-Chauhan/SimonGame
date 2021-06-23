@@ -1,6 +1,10 @@
+body, html {
+  margin: 0;
+}
+
 body {
   text-align: center;
-  background-color: #011F3F;
+  background-color: #10012c;
 }
 
 h6 {
@@ -49,6 +53,10 @@ footer {
   border-radius: 20%;
 }
 
+h1#level-title {
+  margin-top: 200px;
+}
+
 .game-over {
   background-color: red;
   opacity: 0.8;
@@ -73,4 +81,49 @@ footer {
 .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
+}
+
+.home {
+  background-image: url("images/bg.jpeg");
+  background-size: cover;
+}
+
+.home-header {
+  margin: 0;
+  padding: 0;
+}
+
+section.heading {
+  color: #FEF2BF;
+  font-family: 'Press Start 2P', cursive;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  line-height: 2;
+}
+
+section.about {
+  width: 100%;
+  height: 100vh;
+  font-size: 2rem;
+  display: contents;
+  justify-content: center;
+  align-items: center;
+}
+
+section.game {
+  height: 100vh;
+}
+
+@media only screen and (max-width: 500px) {
+  #level-title {
+    font-size: 1.5rem;
+  }
+  .btn {
+    height: 100px;
+    width: 100px;
+  }
 }
